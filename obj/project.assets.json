@@ -11879,21 +11879,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mjay_\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mjay_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\myWebApp\\myWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\mjay_\\Documents\\HelloWorld\\helloworld\\myWebApp.csproj",
       "projectName": "myWebApp",
-      "projectPath": "C:\\myWebApp\\myWebApp.csproj",
+      "projectPath": "C:\\Users\\mjay_\\Documents\\HelloWorld\\helloworld\\myWebApp.csproj",
       "packagesPath": "C:\\Users\\mjay_\\.nuget\\packages\\",
-      "outputPath": "C:\\myWebApp\\obj\\",
+      "outputPath": "C:\\Users\\mjay_\\Documents\\HelloWorld\\helloworld\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\mjay_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -11931,6 +11927,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -11941,10 +11938,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
